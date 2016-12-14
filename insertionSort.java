@@ -30,8 +30,8 @@ public static void main(String[] args){
 				while(j >= 0 && data[j] > current){	
 				//Assign the Jth position to the array of the Jth position plus one (1)				   
 					data [j+1] = data[j];
+					//j-1;
 					j--;
-					System.out.println(j);
 				}
 			data[j+1] = current;
 		}
